@@ -1,0 +1,65 @@
+@import "../../util//variables.module.scss";
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  width: 250px;
+  transition: width 0.5s;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.sidebar.close {
+  width: 100px;
+}
+
+.sidebar_section,
+.sidebar_section_close {
+  height: 100%;
+  border: 1px solid $white-color;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: $white-color;
+  box-shadow: 3px 6px 12px 0px $grey-color;
+}
+
+.action_button_warpper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action_button_close_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar_section > nav > :global(.Mui-selected) {
+  background-color: $secondary-color;
+  border-radius: 5px;
+  color: $primary-color;
+  font-weight: 600 !important;
+}
+
+.sidebar_section > nav > :global(.Mui-selected) > div {
+  color: $primary-color;
+}
+
+.sidebar_section > nav > div > div > div :global(.Mui-selected) {
+  background-color: $secondary-color;
+  border-radius: 5px;
+  color: $primary-color;
+  font-weight: 600 !important;
+}
+
+.sidebar_section > nav > div > div > div :global(.Mui-selected) > div {
+  color: $primary-color;
+}
+
+/* styles.css */
+.logo {
+  background-image: url("../../../../public/logo.svg");
+  height: 50px;
+  width: 70px;
+  background-size: cover;
+}

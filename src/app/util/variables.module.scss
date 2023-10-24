@@ -1,0 +1,31 @@
+$primary-color: #1383ed;
+$secondary-color: #daecfd;
+$background-color: #eef5ff;
+$white-color: #ffffff;
+$grey-color: #c6ccd4;
+$bright-sky-blue: #077eed;
+$lavender: #796eff;
+$bright-pink: #fe5464;
+$vivid-orange: #f6bb4b;
+$bright-blue: #076eed;
+$lavender-purple: #e056fd;
+$dark-blue: #3b3b98;
+$turquoise: #22a6b3;
+$dark-green: #6ab04c;
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  backgroundColor: $background-color;
+  whiteColor: $white-color;
+  greyColor: $grey-color;
+  brightSkyBlue: $bright-sky-blue;
+  lavender: $lavender;
+  brightPink: $bright-pink;
+  vividOrange: $vivid-orange;
+  brightBlue: $bright-blue;
+  lavenderPurple: $lavender-purple;
+  darkBlue: $dark-blue;
+  turquoise: $turquoise;
+  darkGreen: $dark-green;
+}
